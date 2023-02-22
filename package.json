@@ -6,7 +6,7 @@
     "url": "https://github.com/dungnt-hust/public-wallet.git"
   },
   "description": "An api for public wallet",
-  "main": "index.js",
+  "main": "./services/index.ts",
   "dependencies": {
     "@sendgrid/mail": "^7.6.0",
     "@types/bcrypt": "^3.0.0",
