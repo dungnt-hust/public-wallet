@@ -1,7 +1,11 @@
 {
-  "name": "mooncity-api",
+  "name": "public-wallet-api",
   "version": "1.0.0",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dungnt-hust/public-wallet.git"
+  },
+  "description": "An api for public wallet",
   "main": "index.js",
   "dependencies": {
     "@sendgrid/mail": "^7.6.0",
