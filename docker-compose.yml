@@ -1,0 +1,12 @@
+version: "3"
+services:
+  anim-backend:
+    container_name: mooncity-api-backend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      ENV_NAME: production
+    ports:
+      - 9999:9999
